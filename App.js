@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import { StatusBar } from 'expo-status-bar';
-import { AppState, Appearance, Platform, StyleSheet, Text, View, Button, useWindowDimensions } from 'react-native';
+import { AppState, Appearance, Platform, StyleSheet, Text, View, Button, Dimensions } from 'react-native';
 import { getLocales } from 'expo-localization';
 
 export default class App extends Component{
